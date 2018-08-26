@@ -1,11 +1,11 @@
 
-$(".button").remove();
-$("#points-of-sale").remove();
-
-
+$("#contact img").removeAtt("alt");
+$(#contact img").attr("alt", "location");
 
 
 /*
-.empty() - empties the inner HTML of an element
-.remove() - removes the element completely
+
+.removeAtt() removes an attribut completely 
+.attr() can read or set any attribute
+
 */
