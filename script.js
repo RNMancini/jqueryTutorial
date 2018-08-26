@@ -1,6 +1,6 @@
 
-$(".button").empty();
-$("#points-of-sale").empty();
+$(".button").remove();
+$("#points-of-sale").remove();
 
 
 
