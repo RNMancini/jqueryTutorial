@@ -1,15 +1,20 @@
-// SOME CODE TO PULL IN MY LATEST TWITTER TWEET
-var tweet = "The big fight live: Ham vs Cheese!";
+var wrapper = "<div class='wrapper'>";
+var button = $(".button");
+var wrapped = true;
 
-$("#tweets div p").text(tweet);
-
-/* ADDING & CHANGING CONTENT
-
-.append() adds content to bottom of the element
-.prepend() adds content to top of element
-.before() adds content before element
-.after() adds content after element
-.html() changes the whole html of the element
-.text() changes the text of an element
-
-*/
+button[0].oneclick = function() {
+  
+    if(wrapped) {
+        $("section").unwrap();
+        wrapped = false;
+        button.text("wrap");
+    } 
+    
+    else
+    
+    {
+        $("section").wrapAll(wrapper);
+        wrapped = true;
+        button.text("unwrap");
+    }
+};
