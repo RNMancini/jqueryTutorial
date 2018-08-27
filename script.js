@@ -1,4 +1,7 @@
-$(window).load(function(){
+$(document).ready(function(){
     
+    element.on("click", function() {
+        
+    });
     
 });
