@@ -1,4 +1,5 @@
-$("header .wrapper").removeClass("wrapper")
+$("header .wrapper").removeClass("wrapper");
+$("header .> div").addClass("wrapper");
 
 /*
 removeClass() - removes a class from the matched element(s)
