@@ -1,9 +1,1 @@
-console.log($("#contact img").attr("alt"));
-
-
-/*
-
-.removeAtt() removes an attribut completely 
-.attr() can read or set any attribute
-
-*/
+$("#social-nav").css("top", "-200px").css("#left", "100px").css;
