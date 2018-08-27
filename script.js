@@ -1,4 +1,4 @@
-$(window).on("load", function(){
+$(window).load(function(){
     
     
 });
