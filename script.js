@@ -1,6 +1,16 @@
-$("#social-nav").css( {
-    "top": "-400px",
-    "left": "150px",
-    "opacity" : "0.5",
-    "border-top" : "4px solid red"
+var myLis = $('#point-of-sale li');
+
+myLis.on("click", function(){
+    
+    $(this).css({"background" : "pink"});
+    
+    myLis.off("click")
+    
 });
+
+/*
+
+on() - binds an event to matched element(s)
+off() - unbinds event from matched element(s)
+
+*/
