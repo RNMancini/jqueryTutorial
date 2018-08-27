@@ -25,8 +25,9 @@ myLis.on("click", function(){
 
  //lesson16
  
- $("#lead-banner").click(function() {
-     alert("you clicked me");
+ $("#lead-banner").dblclick(function() {
+     alert("you double clicked me");
+     $("#lead-banner").off("dblclick");
     
 });
 
