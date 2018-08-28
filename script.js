@@ -1,23 +1,10 @@
 $(document).ready(function(){
     
-    element.on("click", function(e) {
-        
-    });
-    
-});
-
-
-//next step
-$(document).ready(function(){
-    
-    $(".").on("click", function(e) {
-        
-        console.log(e.target);
-        console.log("The event type is: " + e.type);
-       console.log("X co-ordinate of the event is: " + e.pageX);
-       console.log("Y co-ordinate of the event is: " + e.pageY);
-        e.stopPropagation();
-        
-    });
-    
+   
+   $("section > h2").on("click", function() {
+       
+       $(this).css({"width" : "500px", "height" : "100px"});
+       
+   });
+   
 });
