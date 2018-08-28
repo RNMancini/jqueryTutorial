@@ -3,12 +3,14 @@ $(document).ready(function(){
    
    $("section > h2").on("click", function() {
        
-       $(this).fadeTo(200, 0.2)
-                .fadeTo(200, 0.8)
-                .fadeTo(200, 0.2)
-                .fadeTo(200, 0.8);
-                .fadeTo(200, 0.2)
-                .fadeTo(200, 0.8)
+       $(this).hide(1000).show(1000);
+       
+     /*
+     fadeIn(0, fadeOut(), fadeIn()
+     
+     hide(), show(), toggle()
+     */
+     
        });
        
    });
