@@ -3,7 +3,7 @@ $(document).ready(function(){
    
    $("section > h2").on("click", function() {
        
-       $(this).animate({"opacity" : "0.5"});
+       $(this).fadeOut(2000).fadeIn(500);
       
        });
        
