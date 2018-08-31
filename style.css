@@ -227,6 +227,9 @@ section:after{
 section#points-of-sale ul{
     list-style-type: none;
 }
+#points-of-sale li p {
+    display: none;
+}
 
 #points-of-sale h2{
     height: 0;
